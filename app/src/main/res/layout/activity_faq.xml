@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.shi.com.sagy.FAQ"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+
+
+                <TextView
+                    android:id="@+id/Sagy_TV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#85716c"
+                    android:paddingLeft="5dp"
+                    android:text="@string/what_is_sansad_adarsh_gram_yojna"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/Content_Sagy_TV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/sagy" />
+
+                <TextView
+                    android:id="@+id/Goal_TV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#85716c"
+                    android:paddingLeft="5dp"
+                    android:text="@string/how_to_login_for_govt_employ"
+                    android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/Content_login_TV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text="@string/login_gov" />
+
+
+                    <TextView
+                        android:id="@+id/login_user_TV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#85716c"
+                        android:paddingLeft="5dp"
+                        android:text="@string/how_to_login_for_public"
+                        android:textColor="#ffffff" />
+
+
+
+                        <TextView
+                            android:id="@+id/Conttent_goal_a_TV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/login_public" />
+
+                        <TextView
+                            android:id="@+id/collaborate_user_TV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#85716c"
+                            android:paddingLeft="5dp"
+                            android:text="@string/collaborate_with_the_government"
+                            android:textColor="#ffffff" />
+                        <TextView
+                            android:id="@+id/Conttent_goal_b_TV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/collaborate" />
+
+                        <TextView
+                            android:id="@+id/ratings_user_TV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#85716c"
+                            android:paddingLeft="5dp"
+                            android:text="@string/what_is_rating"
+                            android:textColor="#ffffff" />
+                        <TextView
+                            android:id="@+id/Conttent_goal_c_TV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/faq_ratings" />
+
+                        <TextView
+                            android:id="@+id/participate_TV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#85716c"
+                            android:paddingLeft="5dp"
+                            android:text="@string/why_should_i_participate"
+                            android:textColor="#ffffff" />
+                        <TextView
+                            android:id="@+id/Conttent_goal_d_TV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/participate"/>
+                        <TextView
+                            android:id="@+id/other_TV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#85716c"
+                            android:paddingLeft="5dp"
+                            android:text="@string/other_isuues"
+                            android:textColor="#ffffff" />
+
+                        <TextView
+                            android:id="@+id/Conttent_goal_e_TV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/other" />
+
+
+                </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/ic_bakground"
+    tools:context="app.shi.com.sagy.login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/ic_symbol" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="#55ffffff"
+                android:orientation="vertical"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/getstarted_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Get Started"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/skip_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="end">
+
+                        <TextView
+                            android:id="@+id/skip_tv"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="Guest"
+                            android:textColor="@color/white" />
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/justfew_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="Just a few details to get started"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/villager_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Villager"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/round_edittext"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/ic_phone" />
+
+                        <EditText
+                            android:id="@+id/aadhar_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:background="@drawable/round_edittext"
+                            android:maxLength="12"
+                            android:hint="Mobile Number"
+                            android:inputType="number"
+                            android:textColor="#734631" />
+                    </LinearLayout>
+
+                    <!-- <info.hoang8f.widget.FButton
+                         android:textColor="@color/white"
+                         android:id="@+id/verify_btn"
+                         android:layout_width="130dp"
+                         android:layout_height="35dp"
+                         android:layout_gravity="center"
+                         android:layout_marginTop="10dp"
+                         android:text="Verify"
+                         android:paddingLeft="20dp"
+                         android:paddingRight="30dp"
+                         fbutton:buttonColor="@color/buttoncolor"
+                         fbutton:cornerRadius="8dp"
+                         fbutton:shadowColor="@color/buttonshadowcolor"
+                         fbutton:shadowEnabled="true"
+                         fbutton:shadowHeight="5dp"
+                         android:drawableLeft="@drawable/ic_securitychecked" />-->
+                    <Button
+                        android:id="@+id/verify_btn"
+                        android:layout_width="130dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/buttoncolor"
+                        android:drawableLeft="@drawable/ic_securitychecked"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="30dp"
+                        android:text="Verify"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/regTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Not registered? Register here"
+                        android:textAlignment="textEnd"
+                        android:textColor="#FFFFFF" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/mp_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="MP login"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/round_edittext"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/ic_nameicon1" />
+
+                            <EditText
+                                android:id="@+id/username"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/round_edittext"
+                                android:hint="Username"
+                                android:inputType="text"
+                                android:textColor="#734631" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/round_edittext"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/ic_passwordicon" />
+
+                            <EditText
+                                android:id="@+id/password"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/round_edittext"
+                                android:hint="Password"
+                                android:inputType="textPassword"
+                                android:textColor="#734631" />
+
+                        </LinearLayout>
+
+                        <!--<Button-->
+                        <!--android:id="@+id/mp_login_btn"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:text="Login" />-->
+                        <!--  <info.hoang8f.widget.FButton
+                              android:id="@+id/login_btn"
+                              android:layout_width="130dp"
+                              android:layout_height="35dp"
+                              android:layout_gravity="center"
+                              android:layout_marginTop="10dp"
+                              android:text="Login"
+                              android:textColor="@color/white"
+                              fbutton:buttonColor="@color/buttoncolor"
+                              fbutton:cornerRadius="8dp"
+                              fbutton:shadowColor="@color/buttonshadowcolor"
+                              fbutton:shadowEnabled="true"
+                              fbutton:shadowHeight="5dp" />-->
+                        <Spinner
+                            android:id="@+id/type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/round_edittext"
+                            android:entries="@array/select_type"
+                            android:padding="10dp"/>
+
+                        <Button
+                            android:id="@+id/login_btn"
+                            android:layout_width="130dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/buttoncolor"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="30dp"
+                            android:text="Login"
+                            android:textColor="@color/white"
+                            android:layout_marginBottom="8dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "135579833161",
+    "firebase_url": "https://sagy-4cfd9.firebaseio.com",
+    "project_id": "sagy-4cfd9",
+    "storage_bucket": "sagy-4cfd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135579833161:android:dca51308c73c74d0",
+        "android_client_info": {
+          "package_name": "app.shi.com.sagy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135579833161-eahgpm2qmcqhcuk2c8e9lq849qsarm2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.shi.com.sagy",
+            "certificate_hash": "8010cc23fa314266239283d2fb0b5d4918d914e4"
+          }
+        },
+        {
+          "client_id": "135579833161-p338fm2sqp1aej9ep606ub6tv6enesgq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "135579833161-p338fm2sqp1aej9ep606ub6tv6enesgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR_hoDQhcYd6tsMZB4JVuLMGQ6ky80nBI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135579833161-p338fm2sqp1aej9ep606ub6tv6enesgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

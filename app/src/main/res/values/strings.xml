@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">Sagy</string>
+    <string-array name="select_type">
+        <item>choose Type</item>
+        <item>Nodal Officer</item>
+        <item>MP</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_complain">complain</string>
+    <string-array name="select_catagory">
+        <item>choose category</item>
+        <item>Crime</item>
+        <item>Agriculture</item>
+        <item>Business Services</item>
+        <item>Computers</item>
+        <item>Energy</item>
+        <item>Social Walfare</item>
+        <item>e-Governence</item>
+    </string-array>
+    <string-array name="villagenames">
+        <item>choose village</item>
+        <item>Devdha</item>
+        <!--10-->
+        <item>Lonawada</item>
+        <!--7-->
+        <item>Halol</item>
+        <!--8-->
+    </string-array>
+
+    <string name="title_activity_wall_of_fame">wall_of_fame</string>
+    <string name="dialog_message">mobile number</string>
+    <string name="dialog_title">Verification</string>
+    <string name="DataAnalyses">Data Analyses</string>
+    <string name="small_text">"A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and <magi></magi>c.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"</string>
+    <string name="url">http://phpstack-165541-479108.cloudwaysapps.com/api/webservice.php</string>
+    <string name="imgurl">http://phpstack-165541-479108.cloudwaysapps.com/uploads/</string>
+    <string name="title_activity_aboutus">Aboutus</string>
+    <string name="title_activity_faq">faq</string>
+    <string name="faq_ratings">Ratings for various schemes can be provided by the villagers. Go to schemes->my village->Ratings </string>
+    <string name="sagy">Sansad Adarsh Gram Yojana (abbr.: SAGY) is a rural development programme broadly focusing upon the development in the villages which includes social development, cultural development and spread motivation among the people on social mobilization of the village community.</string>
+    <string name="login_gov">If you are a Government Employee having @gov.in or @nic.in email Id, you can use the credentials for the same to log in.Only an MP or Nodal Officer can login through mp login.</string>
+    <string name="login_public">For the larger public, Sign in, in SAGY can be done through your 12-digit Aadhar number. Once you enter your Aadhar Number, a One Time Password (OTP) shall be sent to your registered mobile number which would be directly fetched .You do not need to enter the OTP. The next time you open the app you would be directly logged in.</string>
+    <string name="collaborate">Students of various colleges all over the world can collaborate with the government to provide innovative solutions to the problem statement provided in SAGY.</string>
+    <string name="what_is_rating">What is Rating?</string>
+    <string name="collaborate_with_the_government">Collaborate with the Government</string>
+    <string name="how_to_login_for_public">How to login for public?</string>
+    <string name="how_to_login_for_govt_employ">How to login for govt.employ?</string>
+    <string name="what_is_sansad_adarsh_gram_yojna">What is Sansad Adarsh Gram Yojna?</string>
+    <string name="why_should_i_participate">Why should i participate</string>
+    <string name="participate">Active participation of the villagers would help to evaluate the workdone. It would help to evolve the village futher more.</string>
+    <string name="other_isuues">Other isuues?</string>
+    <string name="other">"For other issues contact:\n"
+   " e-mail:ynainsukha@hotmail.com  call:0919978913706\n"
+    </string>
+    <string name="first_line_ach">achivement is a platform on which villagers can share thir achievements with people of near by villages </string>
+    <string name="secon_line_ach">villagers can also add thir achivements by clicking on plus + button given in buttom left corner of achivement screen</string>
+    <string name="third_line_ach">steps to add achivement in achivement Tab \n
+    step 1: click on camera icon to capture the moment or click on browse button to upload picture from your phone gallery \n
+    villagers can upload 360 degree view in order to make moment live \n
+    step 2: write a short title about your achievement \n
+    step 3: add the detail description of the event in which you have achieved the same \n
+    step 4: click on submit button\n
+    your achivement has been uploaded, now you can see your achivement on achivement tab</string>
+
+    <string name="yash">Yash Nainsukha</string>
+    <string name="yno">+91-8006182357</string>
+    <string name="yen">ynainsukha@hotmail.com</string>
+    <string name="abhi">Abhinity Merai</string>
+    <string name="ano">+91-8006164826</string>
+    <string name="aen">abhinitymerai3@gmail.com</string>
+    <string name="sourabh">Sourov Karmakar</string>
+    <string name="sno">+91-8008153248</string>
+    <string name="sen">karmakarsourabh7@gmail.com</string>
+    <string name="ruju">Ruju Patel</string>
+    <string name="rno">+91-8006483156</string>
+    <string name="ren">Rujupatel5@gmail.com</string>
+    <string name="nidhi">Nidhi Patel</string>
+    <string name="nno">+91-8004569723</string>
+    <string name="nen">Nidhipatel45@gmail.com</string>
+    <string name="hiral">Hiral Thakkar</string>
+    <string name="hno">+91-8007361586</string>
+    <string name="hen">hiralthakkar56@gmail.com</string>
+    <string name="goal">Goal</string>
+    <string name="goals">"a. improved basic amenities \nb. higher productivity \nc. enhanced human development \nd. better livelihood opportunities \ne. reduced disparities \nf. access to rights and entitlements \ng. wider social mobilization \nh. enriched social capital"</string>
+    <string name="about_developers">About developers</string>
+    <string name="this_project_was_developed_by_team_proton_ic_during_the_smart_india_hackathon_2018">This project was developed by team Proton-ic during the Smart India Hackathon 2018.</string>
+    <string name="the_team_proton_ic">The team Proton-ic</string>
+    <string name="prtonic_team">"1. Yash Nainsukha \n2. Abhinity Merai \n3. Ruju Patel \n4. Nidhi Patel \n5. Sourov Karmakar \n6. Hiral Thakkar"</string>
+    <string name="the_mentors">The mentors</string>
+    <string name="protonic_mentors">"1. Chiragkumar Desai \n2. Soham Pandya"</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+</resources>
